@@ -11,3 +11,104 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+/* Header */
+header {
+  background: url(./images/Header_Image.png);
+  background-size: cover;
+  background-position: center;
+  min-height: 750px;
+}
+
+/* Desktop Version */
+@media screen and (min-width: 2200px) {
+  header {
+    min-height: 1300px;
+  }
+}
+
+@media screen and (min-width: 1600px) and (max-width: 2199px) {
+  header {
+    min-height: 1000px;
+  }
+}
+
+@media screen and (min-width: 701px) and (max-width: 1075px) {
+  header {
+    min-height: 500px;
+  }
+}
+
+/* Mobile Version */
+@media screen and (max-width: 700px) {
+  header {
+    min-height: 320px;
+  }
+}
+@media screen and (max-width: 450px) {
+  header {
+    min-height: 250px;
+  }
+}
+@media screen and (max-width: 350px) {
+  header {
+    min-height: 220px;
+  }
+}
+  
+.section {
+  padding-top: 4vw;
+  padding-bottom: 4vw;
+}
+
+/* Active tab color and style changes */
+.tabs .indicator {
+  background-color: #1976d2;
+}
+
+.tabs .tab a:focus,
+.tabs .tab a:focus.active {
+  background: transparent;
+}
+
+/* Hyperlink Color */
+#emailGetInTouch {
+  color: #1976d2;
+}
+
+/* Change label color */
+label.active {
+  color: 1976d2 !important;
+}
+
+/* Change input field underline color */
+input:focus {
+  border-bottom: 1px solid #1976d2 !important;
+  box-shadow: 0 1px 0 0 #1976d2 !important;
+}
+
+/* Change textarea underline color */
+textarea:focus {
+  border-bottom: 1px solid #1976d2 !important;
+  box-shadow: 0 1px 0 0 #1976d2 !important;
+}
+
+/* Change calander background color */
+.datepicker-date-display {
+  background-color: #1976d2;
+}
+
+/* Change Cancel btn color */
+.datepicker-cancel {
+  color: #1976d2;
+}
+
+/* Change Ok btn color */
+.datepicker-done {
+  color: #1976d2;
+}
+
+/* Change day selected color */
+.datepicker-day-button {
+  color: #1976d2;
+}
