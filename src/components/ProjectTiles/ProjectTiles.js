@@ -1,12 +1,19 @@
-import React from 'react'
-import './style.css'
+import React from 'react';
+import './style.css';
+import BarScout from '../../images/web-homepage.PNG';
+import WeatherDashboard from '../../images/Weather_Dashboard_Screenshot.png';
+import PasswordGenerator from '../../images/Password_Generator_Screenshot.png'
+import StolenCanvas from '../../images/SC_screenshot_1.png'
+import NoteTaker from '../../images/sc_1.png'
+import TechBlog from '../../images/TB-screenshot-2.png'
+
 
 export default function ProjectTiles() {
     return (
         <section className="container section scrollspy" id="work">
             <div className="row">
                 <div className="col s12 l4">
-                    <img src="./assets/images/web-homepage.PNG" alt="BarScout Screenshot"
+                    <img src={BarScout} alt="BarScout Screenshot"
                         className="responsive-img materialboxed"/>
                 </div>
                 <div className="col s12 l6 offset-l1">
@@ -19,7 +26,7 @@ export default function ProjectTiles() {
             </div>
             <div className="row">
                 <div className="col s12 l4 offset-l1 push-l7">
-                    <img src="./assets/images/Weather_Dashboard_Screenshot.png" alt="Weather Dashboard Screenshot"
+                    <img src={WeatherDashboard} alt="Weather Dashboard Screenshot"
                         className="responsive-img materialboxed"/>
                 </div>
                 <div className="col s12 l6 offset-l1 pull-l5 right-align">
@@ -33,7 +40,7 @@ export default function ProjectTiles() {
             </div>
             <div className="row">
                 <div className="col s12 l4">
-                    <img src="./assets/images/Password_Generator_Screenshot.png" alt="Password Generator Screenshot"
+                    <img src={PasswordGenerator} alt="Password Generator Screenshot"
                         className="responsive-img materialboxed"/>
                 </div>
                 <div className="col s12 l6 offset-l1">
@@ -48,7 +55,7 @@ export default function ProjectTiles() {
             </div>
             <div className="row">
                 <div className="col s12 l4">
-                    <img src="./assets/images/SC_screenshot_1.png" alt="Stolen Canvas"
+                    <img src={StolenCanvas} alt="Stolen Canvas"
                         className="responsive-img materialboxed"/>
                 </div>
                 <div className="col s12 l6 offset-l1">
@@ -61,7 +68,7 @@ export default function ProjectTiles() {
             </div>
             <div className="row">
                 <div className="col s12 l4 offset-l1 push-l7">
-                    <img src="./assets/images/sc_1.png" alt="Note Taker Screenshot"
+                    <img src={NoteTaker} alt="Note Taker Screenshot"
                         className="responsive-img materialboxed"/>
                 </div>
                 <div className="col s12 l6 offset-l1 pull-l5 right-align">
@@ -73,7 +80,7 @@ export default function ProjectTiles() {
             </div>
             <div className="row">
                 <div className="col s12 l4">
-                    <img src="./assets/images/TB-screenshot-2.png" alt="Tech Blog Screenshot"
+                    <img src={TechBlog} alt="Tech Blog Screenshot"
                         className="responsive-img materialboxed"/>
                 </div>
                 <div className="col s12 l6 offset-l1">
