@@ -1,6 +1,7 @@
 import React from 'react'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faLinkedin, faGithub } from '@fortawesome/free-brands-svg-icons';
+import Resume from './Coding_Resume.pdf'
 
 
 export default function Navbar() {
@@ -14,8 +15,8 @@ export default function Navbar() {
                     </a>
                     <ul className="right hide-on-med-and-down">
                         <li><a href="#work">Work</a></li>
-                        <li><a href="./Coding_Resume.pdf" target="_blank" rel="noopener noreferrer"
-                                >Resume</a>
+                        <li><a href={Resume} target="_blank" rel="noopener noreferrer"
+                                download="Coding_Resume.pdf">Resume</a>
                         </li>
                         <li><a href="#about-me">About Me</a></li>
                         <li><a href="#contact">Contact Me</a></li>
