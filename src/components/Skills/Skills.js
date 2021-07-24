@@ -1,6 +1,16 @@
-import React from 'react'
+import React, {useEffect} from 'react';
+import M from 'materialize-css'
+import './style.css'
 
 export default function Skills() {
+
+    useEffect(()=> {
+        let elements = document.querySelectorAll(".scrollspy")
+        let tabs = document.querySelectorAll(".tabs")
+        M.ScrollSpy.init(elements)
+        M.Tabs.init(tabs)
+    }, [])
+
     return (
         <section class="section container scrollspy" id="about-me">
             <div class="row">
