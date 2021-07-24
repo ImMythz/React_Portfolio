@@ -1,4 +1,5 @@
-import React from 'react';
+import React, {useEffect} from 'react';
+import M from 'materialize-css'
 import './style.css';
 import BarScout from '../../images/web-homepage.PNG';
 import WeatherDashboard from '../../images/Weather_Dashboard_Screenshot.png';
@@ -9,6 +10,11 @@ import TechBlog from '../../images/TB-screenshot-2.png'
 
 
 export default function ProjectTiles() {
+    useEffect(()=> {
+        let elements = document.querySelectorAll(".materialboxed")
+        M.Materialbox.init(elements)
+    }, [])
+
     return (
         <section className="container section scrollspy" id="work">
             <div className="row">
