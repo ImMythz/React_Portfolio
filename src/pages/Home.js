@@ -4,6 +4,7 @@ import Navbar from '../components/Navbar/Navbar'
 import Parallax from '../components/Parallax/Parallax'
 import ParallaxTwo from '../components/ParallaxTwo/ParallaxTwo'
 import ProjectTiles from '../components/ProjectTiles/ProjectTiles'
+import Skills from '../components/Skills/Skills'
 
 export default function Home() {
     return (
@@ -11,6 +12,7 @@ export default function Home() {
                 <Navbar />
                 <ProjectTiles />
                 <Parallax />
+                <Skills />
                 <ParallaxTwo />
         </Container>
     )
