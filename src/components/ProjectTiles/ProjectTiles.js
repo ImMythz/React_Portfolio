@@ -10,7 +10,7 @@ export default function ProjectTiles() {
                         className="responsive-img materialboxed"/>
                 </div>
                 <div className="col s12 l6 offset-l1">
-                    <a href="https://github.com/ImMythz/BarScout" target="_blank">
+                    <a href="https://github.com/ImMythz/BarScout" target="_blank" rel="noopener noreferrer">
                         <h2 className="blue-text text-darken-2">BarScout</h2>
                     </a>
                     <p>This web application allows you to find bars in different cities, states, and counties. You will also
@@ -23,7 +23,7 @@ export default function ProjectTiles() {
                         className="responsive-img materialboxed"/>
                 </div>
                 <div className="col s12 l6 offset-l1 pull-l5 right-align">
-                    <a href="https://github.com/ImMythz/Weather_Dashboard" target="_blank">
+                    <a href="https://github.com/ImMythz/Weather_Dashboard" target="_blank" rel="noopener noreferrer">
                         <h2 className="blue-text text-darken-2">Weather Dashboard</h2>
                     </a>
                     <p>A weather application that allows you to search for a city and get the daily weather report for that
@@ -37,7 +37,7 @@ export default function ProjectTiles() {
                         className="responsive-img materialboxed"/>
                 </div>
                 <div className="col s12 l6 offset-l1">
-                    <a href="https://github.com/ImMythz/Password_Generator" target="_blank">
+                    <a href="https://github.com/ImMythz/Password_Generator" target="_blank" rel="noopener noreferrer">
                         <h2 className="blue-text text-darken-2">Password Generator</h2>
                     </a>
                     <p>This is a password generator application. The user can choose between different criteria to include
@@ -52,7 +52,7 @@ export default function ProjectTiles() {
                         className="responsive-img materialboxed"/>
                 </div>
                 <div className="col s12 l6 offset-l1">
-                    <a href="https://github.com/ImMythz/Stolen-Canvas" target="_blank">
+                    <a href="https://github.com/ImMythz/Stolen-Canvas" target="_blank" rel="noopener noreferrer">
                         <h2 className="blue-text text-darken-2">Stolen Canvas</h2>
                     </a>
                     <p>This web application is a full fledged E-Commerce site that is based on the premise of pseudo-selling famous 
@@ -65,7 +65,7 @@ export default function ProjectTiles() {
                         className="responsive-img materialboxed"/>
                 </div>
                 <div className="col s12 l6 offset-l1 pull-l5 right-align">
-                    <a href="https://github.com/ImMythz/Note_Taker" target="_blank">
+                    <a href="https://github.com/ImMythz/Note_Taker" target="_blank" rel="noopener noreferrer">
                         <h2 className="blue-text text-darken-2">Note Taker</h2>
                     </a>
                     <p>This application Note Taker application allows the user to write, save, and delete notes to help them organize and keep track of thoughts and tasks.</p>
@@ -77,7 +77,7 @@ export default function ProjectTiles() {
                         className="responsive-img materialboxed"/>
                 </div>
                 <div className="col s12 l6 offset-l1">
-                    <a href="https://github.com/ImMythz/Tech_Blog" target="_blank">
+                    <a href="https://github.com/ImMythz/Tech_Blog" target="_blank" rel="noopener noreferrer">
                         <h2 className="blue-text text-darken-2">Tech Blog</h2>
                     </a>
                     <p>This is a Tech Blog application that creates a CMS-style blog site. This site allows users to create an account, sign in to an existing account, leave posts, edit posts, delete posts, and comment on posts.</p>

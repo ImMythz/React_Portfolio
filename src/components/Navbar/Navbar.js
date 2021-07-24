@@ -14,8 +14,8 @@ export default function Navbar() {
                     </a>
                     <ul className="right hide-on-med-and-down">
                         <li><a href="#work">Work</a></li>
-                        <li><a href="../../images/Coding_Resume.pdf" target="_blank" rel="noopener noreferrer"
-                                download="Coding_Resume.pdf">Resume</a>
+                        <li><a href="./Coding_Resume.pdf" target="_blank" rel="noopener noreferrer"
+                                >Resume</a>
                         </li>
                         <li><a href="#about-me">About Me</a></li>
                         <li><a href="#contact">Contact Me</a></li>
