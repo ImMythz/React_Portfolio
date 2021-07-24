@@ -10,8 +10,8 @@ This repository acts as my professional portfolio for me to showcase my projects
 
 ## Screenshot
 <img src='..\images\portfolio_screenshot_1.png' alt='Portfolio Screenshot 1'>
-<img src='..\assets\images\portfolio_screenshot_2.png' alt='Portfolio Screenshot 2'>
-<img src='..\assets\images\portfolio_screenshot_3.png' alt='Portfolio Screenshot 3'>
+<img src='..\images\portfolio_screenshot_2.png' alt='Portfolio Screenshot 2'>
+<img src='..\images\portfolio_screenshot_3.png' alt='Portfolio Screenshot 3'>
 
 ## Technologies Used
 CSS Framework Materialize | HTML | CSS | JS
