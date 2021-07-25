@@ -6,6 +6,7 @@ import ParallaxTwo from '../components/ParallaxTwo/ParallaxTwo'
 import ProjectTiles from '../components/ProjectTiles/ProjectTiles'
 import Skills from '../components/Skills/Skills'
 import Footer from '../components/Footer/Footer'
+import Contact from '../components/Contact/Contact'
 
 export default function Home() {
     return (
@@ -15,6 +16,7 @@ export default function Home() {
                 <Parallax />
                 <Skills />
                 <ParallaxTwo />
+                <Contact />
                 <Footer />
         </Container>
     )
