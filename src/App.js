@@ -1,14 +1,27 @@
 import React from 'react';
-import { BrowserRouter as Router, Route } from "react-router-dom";
+import Container from './components/Container/Container'
+import Navbar from './components/Navbar/Navbar'
+import Parallax from './components/Parallax/Parallax'
+import ParallaxTwo from './components/ParallaxTwo/ParallaxTwo'
+import ProjectTiles from './components/ProjectTiles/ProjectTiles'
+import Skills from './components/Skills/Skills'
+import Footer from './components/Footer/Footer'
+import Contact from './components/Contact/Contact'
 import './App.css';
-import Home from './pages/Home'
+
 
 
 function App() {
   return (
-    <Router>
-      <Route exact path="/" component={Home} />
-    </Router>
+    <Container>
+      <Navbar />
+      <ProjectTiles />
+      <Parallax />
+      <Skills />
+      <ParallaxTwo />
+      <Contact />
+      <Footer />
+    </Container>
   );
 }
 
