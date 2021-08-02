@@ -24,9 +24,9 @@ export default function Skills() {
                         wanted to
                         take my developing skills to the next level and kickstart my career as a Full Stack Developer. This
                         ultimately lead to the decision to enroll in SMU's esteemed Coding Bootcamp.</p>
-                    <p>From my time in SMU's Coding Bootcamp thus far, I have mastered the Front-End Development and I'm
-                        working towards mastering the Back-End as well. I look forward to further developing my skills as a
-                        Developer.</p>
+                    <p>From my time in SMU's Coding Bootcamp, I have gained essential skills to become a Full-Stack Developer and I'm
+                    working towards improving those skills everyday. This bootcamp was a rigorous and fast-paced program which taught both front and back end web development. 
+                    The skills and technologies learned are as follows: HTML, CSS, Bootstrap, Materialize, Express, Express Sessions, Express Handlebars, AJAX, JSON, ORM, JavaScript, JQuery, Axios, Fetch, BCrypt, MongoDB, MySQL, and React.</p>
                 </div>
                 <div class="col s12 l6 offset-l2">
                     <ul class="tabs">
@@ -47,18 +47,21 @@ export default function Skills() {
                         <p>Teamwork</p>
                         <br></br>
                         <p>Below is a list of coding skills and languages I've learned</p>
-                        <p>HTML / CSS </p>
+                        <p>PWAs / Agile Development / Database Theory</p>
+                        <p>HTML / CSS</p>
+                        <p>Bootstrap / Materialize</p>
                         <p>JavaScript / Node.js / React / React.js</p>
                         <p>JQuery / JSON / AJAX / ORM</p>
-                        <p>Express / Express.js / Express Handlebars </p>
-                        <p>MySQL / MongoDB </p>
+                        <p>Axios / Fetch / BCrypt / Git</p>
+                        <p>Express / Express Sessions / Express Handlebars</p>
+                        <p>MySQL / MongoDB</p>
                         <p>Python</p>
                     </div>
                     <div id="education" class="col s12">
                         <p class="flow-text blue-text text-darken-2">Education</p>
                         <p>Wylie High School - HS Diploma - GPA 3.6 (2015)</p>
                         <p>DeVry University - BS Software Engineering - GPA 3.8 (2017-present)</p>
-                        <p>SMU Coding Bootcamp (currently attending)</p>
+                        <p>SMU Coding Bootcamp, Full-Stack Development (2021)</p>
                     </div>
                 </div>
             </div>
