@@ -1,12 +1,14 @@
 import React, {useEffect} from 'react';
 import M from 'materialize-css'
 import './style.css';
-import BarScout from '../../images/web-homepage.PNG';
-import WeatherDashboard from '../../images/Weather_Dashboard_Screenshot.png';
+import BarScout from '../../images/web-homepage.png'
+import WeatherDashboard from '../../images/Weather_Dashboard_Screenshot.png'
 import PasswordGenerator from '../../images/Password_Generator_Screenshot.png'
 import StolenCanvas from '../../images/SC_screenshot_1.png'
 import NoteTaker from '../../images/sc_1.png'
 import TechBlog from '../../images/TB-screenshot-2.png'
+import VibesExample from '../../images/VibesExample.png'
+import Intranet from '../../images/Intranet.png'
 
 
 export default function ProjectTiles() {
@@ -19,44 +21,40 @@ export default function ProjectTiles() {
         <section className="container section scrollspy" id="work">
             <div className="row">
                 <div className="col s12 l4">
-                    <img src={BarScout} alt="BarScout Screenshot"
+                    <img src={VibesExample} alt="Vibes Screenshot"
                         className="responsive-img materialboxed"/>
                 </div>
                 <div className="col s12 l6 offset-l1">
-                    <a href="https://github.com/ImMythz/BarScout" target="_blank" rel="noopener noreferrer">
-                        <h2 className="blue-text text-darken-2">BarScout</h2>
-                    </a>
-                    <p>This web application allows you to find bars in different cities, states, and counties. You will also
-                        be able to locate the bars near the searched location on a map. Deployed application <a href="https://immythz.github.io/BarScout/" target="_blank" rel="noopener noreferrer">Here</a>.</p>
+                    <h2 className="blue-text text-darken-2">Vibes for Spotify</h2>
+                    <p>Vibes is a powerful and unique companion for Spotify that offers analytics, recommendations, playlist creation, and more. 
+                        Built using the Spotify Web API, Vibes analyzes your Spotify library to provide you with a fresh and intuitive way to explore and discover music.
+                    </p>
                 </div>
             </div>
             <div className="row">
                 <div className="col s12 l4 offset-l1 push-l7">
-                    <img src={WeatherDashboard} alt="Weather Dashboard Screenshot"
+                    <img src={Intranet} alt="Intranet Dashboard Screenshot"
                         className="responsive-img materialboxed"/>
                 </div>
                 <div className="col s12 l6 offset-l1 pull-l5 right-align">
+                    <h2 className="blue-text text-darken-2">Company Intranet</h2>
+                    <p>Created and implemented a company wide Intranet by utilizing Sharepoint and Material-UI which allowed employees to interact and stay connected. 
+                        This simultaneously increased employee engagement and company alignment by providing employees a "one stop shop" for tools, contacts, and resources to empower employees to flourish within their job function
+                    </p>
+                </div>
+            </div>
+            <div className="row">
+                <div className="col s12 l4">
+                    <img src={WeatherDashboard} alt="Weather Dashboard Screenshot"
+                        className="responsive-img materialboxed"/>
+                </div>
+                <div className="col s12 l6 offset-l1">
                     <a href="https://github.com/ImMythz/Weather_Dashboard" target="_blank" rel="noopener noreferrer">
                         <h2 className="blue-text text-darken-2">Weather Dashboard</h2>
                     </a>
                     <p>A weather application that allows you to search for a city and get the daily weather report for that
                         city. You will also be able to get the 5-day forecast of that searched city. Your recent
                         searches will also be saved. Deployed application <a href="https://immythz.github.io/Weather_Dashboard/" target="_blank" rel="noopener noreferrer">Here</a>.</p>
-                </div>
-            </div>
-            <div className="row">
-                <div className="col s12 l4">
-                    <img src={PasswordGenerator} alt="Password Generator Screenshot"
-                        className="responsive-img materialboxed"/>
-                </div>
-                <div className="col s12 l6 offset-l1">
-                    <a href="https://github.com/ImMythz/Password_Generator" target="_blank" rel="noopener noreferrer">
-                        <h2 className="blue-text text-darken-2">Password Generator</h2>
-                    </a>
-                    <p>This is a password generator application. The user can choose between different criteria to include
-                        in their password and a random password will be generated based on the user selected criteria. You
-                        also
-                        have the option to copy your generated password to your clipboard. Deployed application <a href="https://immythz.github.io/Password_Generator/" target="_blank" rel="noopener noreferrer">Here</a>.</p>
                 </div>
             </div>
             <div className="row">
@@ -74,26 +72,56 @@ export default function ProjectTiles() {
             </div>
             <div className="row">
                 <div className="col s12 l4">
-                    <img src={NoteTaker} alt="Note Taker Screenshot"
+                    <img src={TechBlog} alt="Tech Blog Screenshot"
                         className="responsive-img materialboxed"/>
                 </div>
                 <div className="col s12 l6 offset-l1">
-                    <a href="https://github.com/ImMythz/Note_Taker" target="_blank" rel="noopener noreferrer">
-                        <h2 className="blue-text text-darken-2">Note Taker</h2>
+                    <a href="https://github.com/ImMythz/Tech_Blog" target="_blank" rel="noopener noreferrer">
+                        <h2 className="blue-text text-darken-2">Tech Blog</h2>
                     </a>
-                    <p>This application Note Taker application allows the user to write, save, and delete notes to help them organize and keep track of thoughts and tasks. Deployed application <a href="https://note-taking-app-express.herokuapp.com/" target="_blank" rel="noopener noreferrer">Here</a>.</p>
+                    <p>This is a Tech Blog application that creates a CMS-style blog site. This site allows users to create an account, sign in to an existing account, leave posts, edit posts, delete posts, and comment on posts. Deployed application 
+                        <a href="https://young-woodland-81817.herokuapp.com/" target="_blank" rel="noopener noreferrer">Here</a>.
+                    </p>
                 </div>
             </div>
             <div className="row">
                 <div className="col s12 l4 offset-l1 push-l7">
-                    <img src={TechBlog} alt="Tech Blog Screenshot"
+                    <img src={BarScout} alt="Tech Blog Screenshot"
                         className="responsive-img materialboxed"/>
                 </div>
                 <div className="col s12 l6 offset-l1 pull-l5 right-align">
-                    <a href="https://github.com/ImMythz/Tech_Blog" target="_blank" rel="noopener noreferrer">
-                        <h2 className="blue-text text-darken-2">Tech Blog</h2>
+                    <a href="https://github.com/ImMythz/BarScout" target="_blank" rel="noopener noreferrer">
+                        <h2 className="blue-text text-darken-2">BarScout</h2>
                     </a>
-                    <p>This is a Tech Blog application that creates a CMS-style blog site. This site allows users to create an account, sign in to an existing account, leave posts, edit posts, delete posts, and comment on posts. Deployed application <a href="https://young-woodland-81817.herokuapp.com/" target="_blank" rel="noopener noreferrer">Here</a>.</p>
+                    <p>This web application allows you to find bars in different cities, states, and counties. You will also
+                        be able to locate the bars near the searched location on a map. Deployed application <a href="https://immythz.github.io/BarScout/" target="_blank" rel="noopener noreferrer">Here</a>.</p>
+                </div>
+            </div>
+            <div className='row'>
+                <div className="col s12 l4">
+                    <img src={PasswordGenerator} alt="Password Generator Screenshot"
+                        className="responsive-img materialboxed"/>
+                </div>
+                <div className="col s12 l6 offset-l1">
+                    <a href="https://github.com/ImMythz/Password_Generator" target="_blank" rel="noopener noreferrer">
+                        <h2 className="blue-text text-darken-2">Password Generator</h2>
+                    </a>
+                    <p>This is a password generator application. The user can choose between different criteria to include
+                        in their password and a random password will be generated based on the user selected criteria. You
+                        also
+                        have the option to copy your generated password to your clipboard. Deployed application <a href="https://immythz.github.io/Password_Generator/" target="_blank" rel="noopener noreferrer">Here</a>.</p>
+                </div>
+            </div>
+            <div className='row'>
+                <div className="col s12 l4 offset-l1 push-l7">
+                    <img src={NoteTaker} alt="Note Taker Screenshot"
+                        className="responsive-img materialboxed"/>
+                </div>
+                <div className="col s12 l6 offset-l1 pull-l5 right-align">
+                    <a href="https://github.com/ImMythz/Note_Taker" target="_blank" rel="noopener noreferrer">
+                        <h2 className="blue-text text-darken-2">Note Taker</h2>
+                    </a>
+                    <p>This application Note Taker application allows the user to write, save, and delete notes to help them organize and keep track of thoughts and tasks. Deployed application <a href="https://note-taking-app-express.herokuapp.com/" target="_blank" rel="noopener noreferrer">Here</a>.</p>
                 </div>
             </div>
         </section>

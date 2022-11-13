@@ -24,9 +24,8 @@ export default function Skills() {
                         wanted to
                         take my developing skills to the next level and kickstart my career as a Full Stack Developer. This
                         ultimately lead to the decision to enroll in SMU's esteemed Coding Bootcamp.</p>
-                    <p>From my time in SMU's Coding Bootcamp, I have gained essential skills to become a Full-Stack Developer and I'm
-                    working towards improving those skills everyday. This bootcamp was a rigorous and fast-paced program which taught both front and back end web development. 
-                    The skills and technologies learned are as follows: HTML, CSS, Bootstrap, Materialize, Express, Express Sessions, Express Handlebars, AJAX, JSON, ORM, JavaScript, JQuery, Axios, Fetch, BCrypt, MongoDB, MySQL, and React.</p>
+                    <p>From my time in SMU's Coding Bootcamp, I have gained essential skills to become a Full-Stack Developer. This rigorous and fast-paced program taught both front and back end web development. 
+                        The skills and technologies learned are listed in the "skills" tab to the right. I've since continued my education at SMU and currently work full time as a Front End Developer.</p>
                 </div>
                 <div class="col s12 l6 offset-l2">
                     <ul class="tabs">
@@ -56,11 +55,16 @@ export default function Skills() {
                         <p>Express / Express Sessions / Express Handlebars</p>
                         <p>MySQL / MongoDB</p>
                         <p>Python</p>
+                        <p>Django</p>
+                        <p>AWS</p>
+                        <p>C#</p>
+                        <p>ASP.NET</p>
+                        <p>AEM</p>
                     </div>
                     <div id="education" class="col s12">
                         <p class="flow-text blue-text text-darken-2">Education</p>
                         <p>Wylie High School - HS Diploma - GPA 3.6 (2015)</p>
-                        <p>DeVry University - BS Software Engineering - GPA 3.8 (2017-present)</p>
+                        <p>DeVry University / SMU - BS Software Engineering - GPA 3.8 (2017-present)</p>
                         <p>SMU Coding Bootcamp, Full-Stack Development (2021)</p>
                     </div>
                 </div>
